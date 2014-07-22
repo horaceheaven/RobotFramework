@@ -9,7 +9,7 @@ Test Teardown     Close Browser
 *** Test Cases ***
 Valid Login
     Given browser is opened to login page
-    When user "demo" logs in with password "mode"
+    When user "prod_test0702" logs in with password "Password1"
     Then welcome page should be open
 
 *** Keywords ***

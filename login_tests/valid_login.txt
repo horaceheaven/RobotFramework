@@ -8,8 +8,8 @@ Resource          resource.txt
 *** Test Cases ***
 Valid Login
     Open Browser To Login Page
-    Input Username    demo
-    Input Password    mode
+    Input Username    prod_test0702
+    Input Password    Password1
     Submit Credentials
     Welcome Page Should Be Open
     [Teardown]    Close Browser
